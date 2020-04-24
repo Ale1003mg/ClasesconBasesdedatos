@@ -8,12 +8,13 @@ namespace ClasesConectarbasesdedatos
 {
     class PClass
     {
+        protected static string Conexion = "Data Source=ALEJANDRO\\SQLPRUEBAS;Initial Catalog=Escuela;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"; 
         protected int ID { set; get; }
-        protected String Nombre { get; set; }
+        protected string Nombre { get; set; }
 
-        protected String PApellido { get; set; }
+        protected string PApellido { get; set; }
 
-        protected String SApellido { get; set; }
+        protected string SApellido { get; set; }
         protected int Edad { get; set; }
 
 
