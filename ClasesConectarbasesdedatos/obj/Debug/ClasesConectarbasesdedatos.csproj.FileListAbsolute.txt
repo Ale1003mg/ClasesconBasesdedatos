@@ -1,0 +1,10 @@
+C:\Users\Alejandro\Documents\Visual Studio 2017\Projects\ClasesConectarbasesdedatos\ClasesConectarbasesdedatos\bin\Debug\ClasesConectarbasesdedatos.exe.config
+C:\Users\Alejandro\Documents\Visual Studio 2017\Projects\ClasesConectarbasesdedatos\ClasesConectarbasesdedatos\bin\Debug\ClasesConectarbasesdedatos.exe
+C:\Users\Alejandro\Documents\Visual Studio 2017\Projects\ClasesConectarbasesdedatos\ClasesConectarbasesdedatos\bin\Debug\ClasesConectarbasesdedatos.pdb
+C:\Users\Alejandro\Documents\Visual Studio 2017\Projects\ClasesConectarbasesdedatos\ClasesConectarbasesdedatos\obj\Debug\ClasesConectarbasesdedatos.csprojAssemblyReference.cache
+C:\Users\Alejandro\Documents\Visual Studio 2017\Projects\ClasesConectarbasesdedatos\ClasesConectarbasesdedatos\obj\Debug\ClasesConectarbasesdedatos.Form1.resources
+C:\Users\Alejandro\Documents\Visual Studio 2017\Projects\ClasesConectarbasesdedatos\ClasesConectarbasesdedatos\obj\Debug\ClasesConectarbasesdedatos.Properties.Resources.resources
+C:\Users\Alejandro\Documents\Visual Studio 2017\Projects\ClasesConectarbasesdedatos\ClasesConectarbasesdedatos\obj\Debug\ClasesConectarbasesdedatos.csproj.GenerateResource.cache
+C:\Users\Alejandro\Documents\Visual Studio 2017\Projects\ClasesConectarbasesdedatos\ClasesConectarbasesdedatos\obj\Debug\ClasesConectarbasesdedatos.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Documents\Visual Studio 2017\Projects\ClasesConectarbasesdedatos\ClasesConectarbasesdedatos\obj\Debug\ClasesConectarbasesdedatos.exe
+C:\Users\Alejandro\Documents\Visual Studio 2017\Projects\ClasesConectarbasesdedatos\ClasesConectarbasesdedatos\obj\Debug\ClasesConectarbasesdedatos.pdb
