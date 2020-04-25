@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ClasesConectarbasesdedatos;
+//using ClasesConectarbasesdedatos.Models;
 
 namespace ClasesConectarbasesdedatos
 {
@@ -97,6 +98,33 @@ namespace ClasesConectarbasesdedatos
             {
                 textBox6.Text = "Se produjo un error";
             }
+        }
+
+        private void button5_Click(object sender, EventArgs e)//Buscar
+        {
+            int aux=0;
+            Insertar Buscar = new Insertar();
+            Buscar.ObtenerEstudiante(Convert.ToInt32(textBox1.Text),"","","",0);
+           // Buscar.Cargar();
+           // Buscar.LLenar();
+            aux = Buscar.Cargar();
+            if (aux==3)
+            {
+                textBox6.Text = "No existe el usuario";
+            }
+            if (aux==2)
+            {
+                textBox6.Text = "Error de Conexion";
+            }
+            if (aux==1)
+            {
+                textBox1.Text =String.Concat( Buscar.ID2());
+                textBox2.Text = Buscar.Nombre2();
+                textBox3.Text = Buscar.PApellido2();
+                textBox4.Text = Buscar.SApellido2();
+                textBox5.Text = String.Concat( Buscar.Edad2());
+            }
+
         }
     }
 }

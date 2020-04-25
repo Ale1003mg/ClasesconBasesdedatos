@@ -43,5 +43,42 @@ namespace ClasesConectarbasesdedatos
 
             //return 0;
         }
+
+        public int Cargar()
+        {
+            try
+            {
+                SqlConnection cn = new SqlConnection(Conexion);
+                SqlCommand sql = new SqlCommand();
+                sql.Connection = cn;
+                sql.CommandType.ToString();
+                sql.CommandText = "Select * from Estudiante where estudiante_id=@id";
+                sql.Parameters.Add("@id", SqlDbType.Int);
+                sql.Parameters["@id"].Value = ID;
+                SqlDataAdapter da = new SqlDataAdapter(sql);
+                DataSet ds = new DataSet();
+                da.Fill(ds);
+
+                if (ds.Tables[0].Rows.Count > 0)
+                {
+                    ID = Convert.ToInt32(ds.Tables[0].Rows[0][0].ToString());
+                    Nombre = ds.Tables[0].Rows[0][1].ToString();
+                    PApellido = ds.Tables[0].Rows[0][2].ToString();
+                    SApellido = ds.Tables[0].Rows[0][3].ToString();
+                    Edad = Convert.ToInt32(ds.Tables[0].Rows[0][4].ToString());
+                    return 1;
+                }
+                else {
+                    return 3;
+                }
+
+               
+            }
+            catch (Exception)
+            {
+                return 2;
+                throw;
+            }
+        }
     }
 }
